@@ -28,7 +28,7 @@ uint32_t volt_capture(void){
 long Read_Stm(){
 	//STM.CH[0].CCR.B.CEN = 1;//enable
 	STM.CR.B.CPS=0xf;//1MHz;
-	STM.CR.B.TEN = 1;//enable
+	STM.CR.B.TEN = 0x01;//enable
 	return STM.CNT.R;
 }
 void Single_Collection(){
