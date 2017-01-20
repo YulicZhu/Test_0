@@ -1,4 +1,5 @@
 This is my first test line.
 Add a new line.
-
 Add a new line, again.
+Test the branch dev.
+Test the conflict.
